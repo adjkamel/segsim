@@ -38,9 +38,9 @@ The features, annotations, groundtruth, results, mapping, and checkpoint files m
         -/256                          -/256                
 ```
 
-Features of the  the three datasets can be downkoad from this repository: (here](https://github.com/yabufarha/ms-tcn))  
+Features of the  the three datasets can be downkoad from this repository: [here](https://github.com/yabufarha/ms-tcn)
 
-https://github.com/yabufarha/ms-tcn
+
 
 ## Supervised action segmentation:
 
