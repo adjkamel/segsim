@@ -50,7 +50,7 @@ The features, annotations, groundtruth, results, mapping, and checkpoint files m
 
 Train the four encodres (32,64,128, and 256) for each split using:
 
-```console
+```
 python main.py -algo sup -t 32 -a train -d 50salads -sp 1 -gpu 0
 
 python main.py -algo sup -t 64 -a train -d 50salads -sp 1 -gpu 0
@@ -71,7 +71,7 @@ python main.py -algo sup -t 256 -a train -d 50salads -sp 5 -gpu 0
 After training the encoders, the fusion model can be trained with loading the best check points number given as argument to -ck32,-ck64,-ck128, and -ck256 of the four encoders using:
 
 
-```console
+```
 python main.py -algo sup -t fusion -a train -d 50salads -sp 1 -gpu 0 -bw 16 -sw 4 -ck32 94 -ck64 67 -ck128 90 -ck256 77
 
 python main.py -algo sup -t fusion -a train -d 50salads -sp 2 -gpu 0 -bw 16 -sw 4 -ck32 96 -ck64 99 -ck128 100 -ck256 67
@@ -87,7 +87,7 @@ python main.py -algo sup -t fusion -a train -d 50salads -sp 5 -gpu 0 -bw 16 -sw 
 
 Same as 50Salads with 4 splits:
 
-```console
+```
 python main.py -algo sup -t 32 -a train -d gtea -sp 1 -gpu 0
 
 python main.py -algo sup -t 64 -a train -d gtea -sp 1 -gpu 0
@@ -105,7 +105,7 @@ python main.py -algo sup -t 256 -a train -d gtea -sp 5 -gpu 0
 ```
 Train the fusion model with: 
 
-```console
+```
 
 python main.py -algo sup -t fusion -a train -d gtea -sp 1 -gpu 0 -bw 8 -sw 4 -ck32 39 -ck64 64 -ck128 64 -ck256 51
 
@@ -129,7 +129,7 @@ The pretrained models of the encoders and the fusion model for all the splits of
 
 * 50Salads  
 
-```console
+```
 python main.py -algo sup -t fusion -a predict -d 50salads -sp 1 -gpu 0 -bw 16 -sw 4 -ck32 94 -ck64 67 -ck128 90 -ck256 77 -ckfuse 15 -sthw 80 -bndin -bndaft 
 
 python main.py -algo sup -t fusion -a predict -d 50salads -sp 2 -gpu 0 -bw 16 -sw 4 -ck32 96 -ck64 99 -ck128 100 -ck256 67 -ckfuse 22 -sthw 80 -bndin -bndaft
@@ -143,7 +143,7 @@ python main.py -algo sup -t fusion -a predict -d 50salads -sp 5 -gpu 0 -bw 16 -s
 
 * GTEA  
 
-```console
+```
 python main.py -algo sup -t fusion -a predict -d gtea -sp 1 -gpu 0 -bw 8 -sw 4 -ck32 39 -ck64 64 -ck128 64 -ck256 51 -ckfuse 31 -sthw 4 -bndin
 
 python main.py -algo sup -t fusion -a predict -d gtea -sp 2 -gpu 1 -bw 8 -sw 4 -ck32 98 -ck64 74 -ck128 62 -ck256 59 -ckfuse 79 -sthw 4 -bndin
@@ -161,21 +161,21 @@ python main.py -algo sup -t fusion -a predict -d gtea -sp 4 -gpu 1 -bw 8 -sw 4 -
 Based on the proposed unsupervised algorithm, it doesn't require training, run the following commands to get the prediction n the testing sets, The interval_between_boundaries is set to 500, 70, and 300 for 50Salads, gtea, and breakfast datasets, respectively. To use automatic interval_between_boundaries add '-unsthraut' in the commands:
 
 * 50Salads 
-```console
+```
 python main.py -algo unsup -d 50salads -sp 1 
 ...
 python main.py -algo unsup -d 50salads -sp 5 
 ```
 
 * GTEA 
-```console
+```
 python main.py -algo unsup -d gtea -sp 1 
 ...
 python main.py -algo unsup -d gtea -sp 4
 ```
 
 * Breakfast 
-```console
+```
 python main.py -algo unsup -d breakfast -sp 1 
 ...
 python main.py -algo unsup -d breakfast -sp 4
