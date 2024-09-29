@@ -11,7 +11,7 @@ This repository contains code for the paper:  [Enhancing Action Segmentation Thr
 The features, annotations, groundtruth, results, mapping, and checkpoint files must follow this hierarchy:
 
 
-```console
+```
 -50salads/                       -gtea/                     -breakfast/
     -features/                     -features/                  -features/
     -groundTruth/                  -groundTruth/               -groundTruth/
