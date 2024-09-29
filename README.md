@@ -1,4 +1,5 @@
-This repository contains code for the paper:  [Enhancing Action Segmentation Through Explicit Similarity Measurement](https://) 
+This repository contains code for the paper:  [Action Segmentation via Iterative Coarse-to-Fine Similarity Measurement and Boundary
+Correction](https://) 
 
 ## Environment
 
@@ -37,8 +38,9 @@ The features, annotations, groundtruth, results, mapping, and checkpoint files m
         -/256                          -/256                
 ```
 
+Features of the  the three datasets can be downkoad from this repository: (here](https://github.com/yabufarha/ms-tcn))  
 
-
+https://github.com/yabufarha/ms-tcn
 
 ## Supervised action segmentation:
 
