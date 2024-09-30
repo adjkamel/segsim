@@ -1,4 +1,4 @@
-This repository contains code for the paper:  [Action Segmentation via Iterative Coarse-to-Fine Similarity Measurement and Boundary
+This repository contains code for the paper:  [Action segmentation via iterative coarse-to-fine similarity measurement and boundary
 Correction](https://) 
 
 ## Environment
