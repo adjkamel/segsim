@@ -185,5 +185,5 @@ python main.py -algo unsup -d breakfast -sp 4
 
 ## Acknowledgement
 
- Our code of supervised method is based on a modified versions of [Asformer](https://github.com/ChinaYi/ASFormer) and [MS-TCN](https://github.com/yabufarha/ms-tcn) backbones. We thank the authors of these codebases. 
+ Our code of supervised method is based on [Asformer](https://github.com/ChinaYi/ASFormer) and [MS-TCN](https://github.com/yabufarha/ms-tcn) backbones. We thank the authors of these codebases. 
 
