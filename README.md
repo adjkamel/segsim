@@ -160,7 +160,7 @@ python main.py -algo sup -t fusion -a predict -d gtea -sp 4 -gpu 1 -bw 8 -sw 4 -
 
 
 
-Based on the proposed unsupervised algorithm, it doesn't require training, run the following commands to get the prediction n the testing sets, The interval_between_boundaries is set to 500, 70, and 300 for 50Salads, gtea, and breakfast datasets, respectively. To use automatic interval_between_boundaries add '-unsthraut' in the commands:
+Based on the proposed unsupervised algorithm, it doesn't require training, run the following commands to get the prediction on the testing sets, The interval_between_boundaries is set to 500, 70, and 300 for 50Salads, gtea, and breakfast datasets, respectively. To use automatic interval_between_boundaries add '-unsthraut' in the commands:
 
 * 50Salads 
 ```
