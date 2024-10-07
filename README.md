@@ -85,7 +85,7 @@ python main.py -algo sup -t fusion -a train -d 50salads -sp 4 -gpu 0 -bw 16 -sw 
 python main.py -algo sup -t fusion -a train -d 50salads -sp 5 -gpu 0 -bw 16 -sw 4 -ck32 52 -ck64 93 -ck128 60 -ck256 16
 ```
 
-* gtea
+* GTEA
 
 Same as 50Salads with 4 splits:
 
@@ -120,7 +120,7 @@ python main.py -algo sup -t fusion -a train -d gtea -sp 4 -gpu 1 -bw 8 -sw 4 -ck
 ```
 
 
-2. GTEA
+
 
 
 
