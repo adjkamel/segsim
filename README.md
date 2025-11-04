@@ -1,4 +1,4 @@
-This repository contains code for the paper:  [Improving action segmentation via explicit similarity measurement](https://https://arxiv.org/abs/2502.10713) 
+This repository contains code for the paper:  [Improving action segmentation via explicit similarity measurement](https://arxiv.org/abs/2502.10713) 
 
 ## Environment
 
